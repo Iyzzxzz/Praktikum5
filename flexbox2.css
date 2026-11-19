@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: yellow;
+    padding: 20px 30px;
+}
+
+.main {
+    display: flex;
+    height: 300px;
+}
+
+article {
+    background-color: antiqueWhite;
+    flex: 7;
+    padding: 25px 30px;
+}
+
+aside {
+    background-color: coral;
+    flex: 2;
+    padding: 25px 30px;
+}
+
+nav {
+    background-color: blue;
+    flex: 2;
+    padding: 25px 30px;
+}
